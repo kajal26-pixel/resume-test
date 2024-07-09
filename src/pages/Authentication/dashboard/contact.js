@@ -38,8 +38,8 @@ const Contact = () => {
                     backgroundSize: 'cover'
                 }}
             >
-                <Container fluid className="align-items-center justify-content-center" >
-                    <Row className="justify-content-center" style={{ height: '50vh' }}>
+                 <Container fluid className="d-flex align-items-center justify-content-center h-100" >
+                    <Row className="justify-content-center w-100" >
                         <Col md={9} lg={7} xl={5}>
                             <Card className="justify-content-center align-items-center" style={{ height: '50vh' }}>
                                 <CardBody className="border-bottom align-items-center">
