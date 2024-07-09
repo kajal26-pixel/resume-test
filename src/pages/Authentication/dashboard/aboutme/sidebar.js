@@ -63,7 +63,7 @@ const Sidebar = () => {
                                     </div>
                                 </div>
                             </li>
-                            <li className="hstack gap-2 mt-4">
+                            <li className="hstack gap-2 mt-3">
                                 <Link to="contact" className="btn btn-soft-danger w-100">Contact</Link>
                             </li>
                         </ul>
