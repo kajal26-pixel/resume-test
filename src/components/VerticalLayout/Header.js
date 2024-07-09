@@ -71,20 +71,20 @@ const Header = props => {
 
   return (
     <React.Fragment>
-      <header id="page-topbar" style={{height:'10vh'}}>
+      <header id="page-topbar">
         <div className="navbar-header" >
           <div className="d-flex">
 
             <div className="navbar-brand-box d-lg-none d-md-block " >
               <Link to="/" className="logo logo-dark" >
                 <span className="logo-sm" >
-                  <img src="" alt="" height="10"  />
+                  <img src="" alt="" height="22"  />
                 </span>
               </Link>
 
               <Link to="/" className="logo logo-light "  >
                 <span className="logo-sm" >
-                  <img src="" alt="" height="10"  />
+                  <img src="" alt="" height="22"  />
                 </span>
               </Link>
             </div>
