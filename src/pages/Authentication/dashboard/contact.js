@@ -28,7 +28,7 @@ const Contact = () => {
     }
     return (
         <React.Fragment>
-            <div className='account-pages pt-sm-5'
+            <div className='account-pages container-fluid pt-sm-5'
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
@@ -37,33 +37,33 @@ const Contact = () => {
                     backgroundImage:`url(${background})`,
                     backgroundSize: 'cover'
                 }}
-            >
+            > 
                  <Container fluid className="d-flex align-items-center justify-content-center h-100" >
                     <Row className="justify-content-center w-100" >
-                        <Col md={9} lg={7} xl={5}>
-                            <Card className="justify-content-center align-items-center" style={{ height: '50vh' }}>
+                        <Col xs={11} sm={9} md={7} lg={5} xl={4}>
+                            <Card className="justify-content-center align-items-center" style={{ minHeight: '45vh' }}>
                                 <CardBody className="border-bottom align-items-center">
                                     <h3 className="mt-5" style={{ textAlign: 'center' }} >Social Media</h3>
-                                    <Row className="hstack gap-5 mt-5 align-items-center justify-content-center" style={{ width: '60vh', marginLeft: '1%' }}>
+                                    <Row className="mt-5 gx-5">
  
-                                        <Col sm={5}>
-                                            <Button className="btn btn-soft-success" style={{ width: '-webkit-fill-available', height: '7vh' }} onClick={handleGmail}><i className="bx bxl-google me-1 align-middle"></i> Gmail</Button>
-                                        </Col>
-                                        <Col sm={5}>
-                                            <Button className="btn btn-soft-info" style={{ width: '-webkit-fill-available', height: '7vh' }} onClick={handleLinkedIn}><i className="bx bxl-linkedin me-1 align-middle mb-1"></i> Linked In</Button>
+                                        <Col xs={12} sm={6} className="mb-3">
+                                            <Button className="btn btn-soft-success w-100" style={{height: '7vh', padding: '0.75rem 2rem' }} onClick={handleGmail}><i className="bx bxl-google me-1 align-middle"></i> Gmail</Button>
+                                        </Col> 
+                                        <Col xs={12} sm={6} className="mb-3"> 
+                                            <Button className="btn btn-soft-info w-100" style={{height: '7vh', padding: '0.75rem 2rem' }} onClick={handleLinkedIn}><i className="bx bxl-linkedin me-1 align-middle mb-1"></i> Linked In</Button>
                                         </Col>
 
 
 
                                     </Row>
-                                    <Row className="hstack gap-5 mt-5" style={{ width: '60vh', marginLeft: '5%' }}>
+                                    <Row className="mt-4 gx-5" >
 
 
-                                        <Col sm={5}>
-                                            <Button className="btn btn-soft-primary" style={{ width: '-webkit-fill-available', height: '7vh' }} onClick={handleTelegram}><i className="bx bxl-telegram me-1 align-middle"></i> Telegram</Button>
+                                        <Col  xs={12} sm={6} className="mb-3">
+                                            <Button className="btn btn-soft-primary w-100" style={{ height: '7vh', padding: '0.75rem 2rem' }} onClick={handleTelegram}><i className="bx bxl-telegram me-1 align-middle"></i> Telegram</Button>
                                         </Col>
-                                        <Col sm={5}>
-                                            <Button className="btn btn-soft-pink" style={{ width: '-webkit-fill-available', height: '7vh' }} onClick={handleInsta}><i className="bx bxl-instagram me-1 align-middle"></i> Instagram</Button>
+                                        <Col  xs={12} sm={6} className="mb-3">
+                                            <Button className="btn btn-soft-pink w-100" style={{height: '7vh', padding: '0.75rem 2rem' }} onClick={handleInsta}><i className="bx bxl-instagram me-1 align-middle"></i> Instagram</Button>
                                         </Col>
 
 
@@ -81,11 +81,11 @@ const Contact = () => {
 
                                     {/* <Link to="#!" className="btn btn-soft-success"><i className="bx bxl-whatsapp align-middle me-1"></i> Whatsapp</Link> */}
 
-                                </CardBody>
+                                 </CardBody>
                             </Card>
                         </Col>
                     </Row>
-                </Container>
+                </Container>  
             </div>
         </React.Fragment>
     );
