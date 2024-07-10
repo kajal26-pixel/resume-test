@@ -93,8 +93,8 @@ const Experience = () => {
                             <Col lg={12}>
                                 <h5 className="mb-3">Awards</h5>
                             </Col>
-                            <Col xl={3}>
-                                <Card style={{ height: '40vh' }}>
+                            <Col xl={3} lg={4} md={6} sm={12}>
+                                <Card >
                                     <CardBody style={{
                                         backgroundImage: `url(${award})`,
                                         //  display: 'flex',
@@ -103,7 +103,7 @@ const Experience = () => {
                                          backgroundSize: 'cover',
                                         // height: '100vh',
                                         position: 'relative',
-                                        paddingTop: '20.25%',
+                                        paddingTop: '72.25%',
                                         height:'0',
                                         backgroundPosition: 'center', /* Centers the image */
                                         backgroundRepeat: 'no-repeat'
