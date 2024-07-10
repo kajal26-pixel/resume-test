@@ -67,6 +67,14 @@ const Header = props => {
       body.classList.toggle("vertical-collpsed");
       body.classList.toggle("sidebar-enable");
     }
+
+    if (body.classList.contains('sidebar-enable')) {
+      body.style.setProperty('display', 'contents', 'important');
+      // body.style.setProperty('overflow', 'hidden', 'important');
+    } else {
+      // body.style.removeProperty('flex');
+      // body.style.removeProperty('overflow');
+    }
   }
 
   return (
